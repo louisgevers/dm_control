@@ -1720,7 +1720,7 @@
                 <attribute name="solimp" type="array" array_type="float" array_size="5"/>
                 <attribute name="margin" type="float"/>
                 <attribute name="gap" type="float"/>
-                <attribute name="internal" type="int"/>
+                <attribute name="internal" type="string" valid_values="true false"/>
                 <attribute name="selfcollide" type="string" valid_values="none narrow bvh sap auto"/>
                 <attribute name="activelayers" type="int"/>
               </attributes>
