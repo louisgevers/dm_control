@@ -803,6 +803,28 @@
                 <attribute name="bias" type="array" array_type="float" array_size="3"/>
               </attributes>
             </element>
+            <element name="muscle">
+              <attributes>
+                <attribute name="group" type="int"/>
+                <attribute name="ctrllimited" type="keyword" valid_values="false true auto"/>
+                <attribute name="forcelimited" type="keyword" valid_values="false true auto"/>
+                <attribute name="ctrlrange" type="array" array_type="float" array_size="2"/>
+                <attribute name="forcerange" type="array" array_type="float" array_size="2"/>
+                <attribute name="lengthrange" type="array" array_type="float" array_size="2"/>
+                <attribute name="gear" type="array" array_type="float" array_size="6"/>
+                <attribute name="cranklength" type="float"/>
+                <attribute name="user" type="array" array_type="float"/>
+                <attribute name="timeconst" type="array" array_type="float" array_size="2"/>
+                <attribute name="range" type="array" array_type="float" array_size="2"/>
+                <attribute name="force" type="float"/>
+                <attribute name="scale" type="float"/>
+                <attribute name="lmin" type="float"/>
+                <attribute name="lmax" type="float"/>
+                <attribute name="vmax" type="float"/>
+                <attribute name="fpmax" type="float"/>
+                <attribute name="fvmax" type="float"/>
+              </attributes>
+            </element>
             <element name="adhesion">
               <attributes>
                 <attribute name="group" type="int"/>
